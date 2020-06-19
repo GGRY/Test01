@@ -1,0 +1,11 @@
+1、基本命令
+	nginx 				运行
+	nginx -t 			检查配置文件有效性
+	nginx -s stop 		关闭
+	nginx -s quit		处理完当前的请求后关闭
+	nginx -s reload		修改完配置文件后重新加载
+	nginx -s reopen     打开日志文件
+	
+	关于关闭的问题：
+	查询进程	tasklist /fi "imagename eq nginx.exe"
+	关闭进程	taskkill /f /t /im "进程id或者进程名称"
