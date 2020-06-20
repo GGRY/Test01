@@ -8,5 +8,14 @@
 	7、查看提交日志简洁				git log --pretty=short
 	8、查看单一文件的日志			git log 文件名 	
 	9、显示整个本地仓库的 commit	git reflog
-	10、查看更改前后的差异			git diff
+	10、查看工作区和暂存区的差异	git diff
+	11、工作区和本地仓库的差异		git diff HEAD
+	
+	12、工作区代码撤销修改			git checkout 文件名
+	13、暂存区的代码撤销			git reset HEAD
+	14、提交到本地仓库的代码想撤销	git reset --hard <版本号>
+	
+	15、git reset HEAD^^ 向前回退两个版本
+	16、git reset –hard HEAD~1 回到上一个版本
+	17、git reset –hard 版本号
 	
