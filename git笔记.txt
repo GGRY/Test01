@@ -1,7 +1,10 @@
 基本操作
-	1、初始化仓库			git init
-	2、查看状态				git status
-	3、将文件放到暂存区		git add 文件名
-	4、将文件提交到本地仓库	git commit -m"备注"
-	5、修改上次提交的备注	git commit --amend
-	6、查看提交日志			git log
+	1、初始化仓库					git init
+	2、查看状态						git status
+	3、将文件放到暂存区				git add 文件名
+	4、将文件提交到本地仓库			git commit -m"备注"
+	5、修改上次提交的备注			git commit --amend
+	6、查看提交日志					git log
+	7、查看提交日志简洁				git log --pretty=short
+	8、查看单一文件的日志			git log 文件名 	
+	9、显示整个本地仓库的 commit	git reflog
