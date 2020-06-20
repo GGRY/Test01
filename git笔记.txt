@@ -8,3 +8,5 @@
 	7、查看提交日志简洁				git log --pretty=short
 	8、查看单一文件的日志			git log 文件名 	
 	9、显示整个本地仓库的 commit	git reflog
+	10、查看更改前后的差异			git diff
+	
