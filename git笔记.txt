@@ -19,3 +19,8 @@
 	16、git reset –hard HEAD~1 回到上一个版本
 	17、git reset –hard 版本号
 	
+	18、查看分支		git branch
+	19、创建分支		git branch <分支名>
+	20、切换分支		git checkout <分支名>
+	21、创建并切换分支	git checkout -b <分支名>
+	
